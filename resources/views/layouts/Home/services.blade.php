@@ -7,7 +7,7 @@
           <p></p>
         </div>
 
-        <div class="row">
+        <div class="row servicesUpdate ">
           <div class="col-md-4 col-lg-3 d-flex align-items-stretch ">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>

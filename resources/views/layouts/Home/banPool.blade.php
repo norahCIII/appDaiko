@@ -3,7 +3,7 @@
     <div class="section-title-single " data-aos="fade-up">
       <h2>Pool</h2>
     </div>
-    <div class="row content banPool">
+    <div class="row content banPool text-center">
       <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
         <p>
           Gane hasta un 20% INT pagado cada semana.

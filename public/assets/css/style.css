@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Desktop Navigation 
 */
+.login {
+  padding: 0px 0 0px 350px !important;
+}
+
 .navbar {
   padding: 0;
 }
@@ -190,6 +194,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
   visibility: visible;
 }
+
+
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -627,6 +633,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
 .btnLearnMore {
   padding: 12px 12px;
   font-family: "Montserrat", Sans-serif;
@@ -636,11 +643,13 @@ section {
   color: #131313;
   border: 2px solid #131313;
 }
+
 .btnLearnMore :hover {
   background: #131313;
   color: #fff;
   text-decoration: none;
 }
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -807,6 +816,67 @@ section {
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
+/* JUMBOTRON STYLE HERE */
+.jumbotron {
+  background:
+    linear-gradient(rgba(14, 231, 255, 0.122),
+      rgba(125, 250, 250, 0.45)),
+    url(../img/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white !important;
+  height: 60vh;
+}
+
+.title {
+  margin-top: 10vh;
+}
+
+.titleTwo {
+  font-size: 50px;
+  margin-top: -3vh;
+
+}
+
+.string {
+  padding-top: 100px;
+
+}
+
+.string-1 {
+  padding-top: 30px;
+  width: 600px;
+  margin: 0 auto;
+  font-weight: 100;
+  margin-top: -35px;
+}
+
+.contentAbout {
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+br {
+  margin: 20px;
+}
+
+.aboutBtn {
+  background: #222222;
+  padding: 8 px 25 px;
+  margin-left: 30 px;
+  border-radius: 50 px;
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# More Services
+--------------------------------------------------------------*/
+.servicesUpdate{
+  justify-content: space-evenly
+}
+
 .more-services {
   padding-top: 20px;
 }
