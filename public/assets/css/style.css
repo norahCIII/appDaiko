@@ -10,12 +10,84 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+
+
+/* #region Root */
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+
+    --h1-size: 4rem;
+    --h1-weight: 900;
+    
+    --h2-size: 3rem;
+    --h2-weight: 700;
+
+    --h3-size: 2rem;
+    --h3-weight: 600;
+
+    --h4-size: 1.5rem;
+    --h4-weight: 600;
+
+    --h5-size: 1.2rem;
+    --h5-weight: 600;
+
+    --h6-size: 1rem;
+    --h6-weight: 600;
+    
+    --p-size: 1rem;
+    --p-weight: 400;
+
+    --header-bg-color: #121117;
+    --nav-brand-height: 55px;
+    --top-nav-item-color: #f5f5f5;
+    --nav-item-color: #121117;
+
+    --primary-color: #4528DC;
+    --secondary-color: #57048A;
+
+    --white-color: #f9f9f9;
+    --black-color: #040402;
+    --grey-color: #f3f5f7;
+    --dark-grey-color: #191919;
+
+    --primary-t-color: #f5f5f5;
+    --secondary-t-color: #f5f5f5;
+    --primary-p-color: #8E8E8E;
+    --secondary-p-color: #E1E1E1;
+    --primary-b-color: #f5f5f5;
+    --primary-l-color: rgba(0, 0, 0, .12);
+    --secondary-l-color: rgba(255, 255, 255, 0.12);
+
+    --valid-color: #007a4d;
+    --invalid-color: #e34f4f;
+
+    --primary-bg-color: #09080D;
+    --primary-bg-color-2: #eeeeee;
+    --primary-bg-color-3: #e5e5e5;
+
+    --secondary-bg-color: #040402;
+    --secondary-bg-color-2: #111111;
+    --secondary-bg-color-3: #191919;
+
+    --card-bg-color: #16151A;
+    --footer-bg-color: #121117;
+}
+
+/* #endregion Root */
+
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Montserrat", Sans-serif;
   color: #444444;
+  background-color: #09080d;
 }
 
 a {
@@ -54,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
 
-  background: #fff;
+  background: #121117;
 }
 
 #header.header-scrolled {
@@ -72,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #222222;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -81,15 +153,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   max-height: 40px;
 }
-
+.logImg {
+  padding: 10px;
+  margin: 0;
+  max-width: 100px;
+  max-height: 200px;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
 * Desktop Navigation 
 */
+
 .login {
-  padding: 0px 0 0px 350px !important;
+  padding: 0px 0 0px 180px !important;
 }
 
 .navbar {
@@ -115,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 700;
-  color: #00000098;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -127,7 +205,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
-  color: #222222;
+  background: -webkit-linear-gradient(#4528DC, #57048A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar .getstarted, .navbar .getstarted:focus {
@@ -139,8 +219,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #4aa3df;
+  color: rgb(255, 255, 255);
+  background: #ffffff;
 }
 
 .navbar .dropdown ul {
@@ -319,13 +399,25 @@ h1, h2, h3, h4, h5, h6 {
   height: 70vh;
   margin-top: 70px;
 }
+.shape {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 165px;
+  line-height: 0;
+  direction: ltr;
+  overflow: hidden;
+  z-index: -1;
+}
 
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  background: -webkit-linear-gradient(#4528DC, #57048A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #hero h2 {
@@ -343,12 +435,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #222222;
-  border: 2px solid #222222;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
+  background-image: linear-gradient(
+    135deg, var(--primary-color) 10%, var(--secondary-color));
   color: #fff;
 }
 
@@ -510,10 +603,11 @@ section {
 
 .section-title h2 {
   font-size: 32px;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+
 }
 
 .section-title h2::before, .section-title h2::after {
@@ -522,10 +616,13 @@ section {
   height: 2px;
   background: #222222;
   display: inline-block;
+  background-image: linear-gradient( 
+135deg, var(--primary-color) 10%, var(--secondary-color));
 }
 
 .section-title h2::before {
   margin: 0 15px 10px 0;
+  
 }
 
 .section-title h2::after {
@@ -621,15 +718,16 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #3498db;
+  color: #fbfbfb;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #3498db;
+  border: 2px solid #ffffff;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
+  background-image: linear-gradient(
+135deg, var(--primary-color) 10%, var(--secondary-color));
   color: #fff;
   text-decoration: none;
 }
@@ -1420,7 +1518,7 @@ br {
   line-height: 30px;
   font-weight: 700;
   color: rgb(14, 23, 102);
-  font-family: pangram, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-family: "Montserrat", Sans-serif;
   background: rgb(239, 238, 249);
   position: relative;
 }
@@ -1622,7 +1720,8 @@ br {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #2383c4;
+  background-image: linear-gradient(
+135deg, var(--primary-color) 10%, var(--secondary-color));
 }
 
 @-webkit-keyframes animate-loading {
@@ -1706,6 +1805,11 @@ br {
     display: inline-block;
   }
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Footer
