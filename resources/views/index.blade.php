@@ -1,6 +1,4 @@
 
-
-
 @extends('layouts.Home.resources')
 
 @extends('layouts.Home.footer')

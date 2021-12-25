@@ -53,7 +53,21 @@
                 </div>
               </div>
             </div><!-- End testimonial item -->
-           
+           <!-- End testimonial item -->
+           <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/support/certik.png" class="testimonial-img" alt="">
+                  <h3>Nova Lab</h3>
+                  <h4>Guadalajara de Buga</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
           </div>
           <div class="swiper-pagination"></div>
         </div>

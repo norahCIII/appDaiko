@@ -3,7 +3,7 @@
 @extends('layouts.Home.footer')
 @extends('layouts.Home.earnYield')
 @extends('layouts.Home.navBar')
-@extends('layouts.Home.banNav')
+@extends('layouts.Home.banEarn')
 
 
 

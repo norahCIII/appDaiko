@@ -1,20 +1,14 @@
 <!-- ======= SubNav ======= -->
 <section id="hero" class="d-flex align-items-center">
-
   <div class="container">
     <div class="row">
       <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">GANE INTERES POR SU INVERSION </h1>
-        <h2 data-aos="fade-up" data-aos-delay="400">Conozca a Daiko, una comunidad que te ayuda
-          a tener ingresos pasivos por tus ahorros, con tazas
-          de hasta 20% de interes anual invirtiendo en cryptomonedas.</h2>
-        <div data-aos="fade-up" data-aos-delay="800">
-          <a href="#about" class="btn-get-started scrollto">Registrate</a>
-          <a href="#about" class="btn-get-started scrollto">Nuestras tarifas</a>
-        </div>
+        <h1 data-aos="fade-up">DAIKOSITAS </h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">Permite realizar depósitos de inversión desde la banca tradicional tanto como en cryptomonedas, este servicio permite a los titulares obtener tazas de retorno hasta un 20% de interés anual con tarifas marginales entre el 0.5% a 1.5% sobre la utilidad neta percibida, de la cual se destinará entre el 10 a 20% del costo tarifario al funding locket vault de NOVA LAB.</h2>
+       
       </div>
       <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-        <img src="assets/img/wallpDaiko.png" class="img-fluid animated" alt="">
+        <img src="assets/img/phoneTwo.png" class="img-fluid animated" alt="">
 
       </div>
       <div class="shape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 465" version="1.1">
@@ -33,5 +27,5 @@
     </div>
   </div>
 </section>
-@yield('banNav')
+@yield('banEarn')
 <!-- ======= End SubNav======= -->
