@@ -4,7 +4,7 @@
 
     <jet-banner />
 
-    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light border-bottom sticky-top">
       <div class="container">
         <!-- Logo -->
         <Link class="" :href="route('dashboard')">
@@ -117,14 +117,14 @@
     </nav>
 
     <!-- Page Heading -->
-    <header class="d-flex py-3 bg-white shadow-sm border-bottom">
+    <header class="d-flex py-3 bg-dark shadow-sm border-bottom">
       <div class="container">
         <slot name="header"></slot>
       </div>
     </header>
 
     <!-- Page Content -->
-    <main class="container my-5">
+    <main class=" container my-5">
       <slot></slot>
     </main>
   </div>

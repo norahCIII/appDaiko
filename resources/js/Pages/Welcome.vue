@@ -1,28 +1,10 @@
 <template>
-  <Head title="Welcome" />
-
+  <Head title="Home" />
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+ <nav-vue></nav-vue>
   <div>
-    <div class="container-fluid fixed-top p-4">
-      <div class="col-12">
-        <div v-if="canLogin" class="d-flex justify-content-end">
-          <div>
-            <Link v-if="$page.props.user" :href="route('dashboard')" class="text-muted">
-              Dashboard
-            </Link>
-
-            <template v-else>
-              <Link :href="route('login')" class="text-muted">
-                Log in
-              </Link>
-
-              <Link v-if="canRegister" :href="route('register')" class="ms-4 text-muted">
-                Register
-              </Link>
-            </template>
-          </div>
-        </div>
-      </div>
-    </div>
+  
 
     <div class="container-fluid my-5 pt-5 px-5">
       <div class="row justify-content-center px-4">
@@ -135,6 +117,7 @@
       </div>
     </div>
   </div>
+ 
 </template>
 
 <style scoped>
@@ -144,11 +127,14 @@
 <script>
 import { defineComponent } from "vue"
 import { Head, Link } from '@inertiajs/inertia-vue3';
+import NavVue from "@/Layouts/NavVue.vue"
 
 export default defineComponent({
   components: {
     Head,
     Link,
+    NavVue
+  
   },
 
   props: {

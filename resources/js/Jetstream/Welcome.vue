@@ -1,8 +1,8 @@
 <template>
   <div class="row justify-content-center my-5">
     <div class="col-md-12">
-      <div class="card shadow bg-light">
-        <div class="card-body bg-white px-5 py-3 border-bottom rounded-top">
+      <div class="card shadow bg-dark">
+        <div class="card-body bg-dark px-5 py-3 border-bottom rounded-top">
           <div class="mx-3 my-3">
             <div>
               <jet-application-logo style="width: 217px;" />
@@ -50,7 +50,7 @@
          
           <div class="col-md-6 ps-0">
             <div class="card-body p-3 h-100">
-              <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="d-flex flex-row bg-dark mb-3">
                 <div>
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="text-muted" width="32"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
                 </div>

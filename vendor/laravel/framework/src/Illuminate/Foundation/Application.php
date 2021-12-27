@@ -227,7 +227,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
      * @param  string[]  $bootstrappers
      * @return void
      */
-    public function bootstrapWith(array $bootstrappers)
+    public function bootstrapWith(array  $bootstrappers)
     {
         $this->hasBeenBootstrapped = true;
 

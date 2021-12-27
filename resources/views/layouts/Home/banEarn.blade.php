@@ -15,7 +15,7 @@
           <defs>
             <linearGradient x1="49.7965246%" y1="28.2355058%" x2="49.7778147%" y2="98.4657689%" id="linearGradient-1">
               <stop stop-color="rgba(69,40,220, 0.15)" offset="0%"></stop>
-              <stop stop-color="rgba(87,4,138, 0.15)" offset="100%"></stop>
+              <stop stop-color="rgba(9,8,13, 0.15 )" offset="100%"></stop>
             </linearGradient>
           </defs>
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
