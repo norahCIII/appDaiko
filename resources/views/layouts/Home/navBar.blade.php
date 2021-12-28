@@ -7,8 +7,8 @@
 
          <nav id="navbar" class="navbar">
              <ul class="navLink">
-                 <li><a class="nav-link scrollto " href="{{ url('../gana') }}">Earn Yield</a></li>
-                 <li><a class="nav-link scrollto" href="{{ url('../pool') }}">Reward Pool</a></li>
+                 <li><a class="nav-link scrollto " href="{{ url('../gana') }}">Assets</a></li>
+                 <li><a class="nav-link scrollto" href="{{ url('../pool') }}">Pool</a></li>
                  <li><a class="nav-link scrollto" href="{{ url('../pool') }}">Funding Pool</a></li>
                  <li><a class="nav-link scrollto " href="#portfolio">Intercambio</a></li>
                  <li><a class="nav-link scrollto" href="{{ url('../about') }}">Nosotros</a></li>

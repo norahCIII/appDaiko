@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">DAIKOSITAS </h1>
+        <h1 data-aos="fade-up">ASSETS </h1>
         <h2 data-aos="fade-up" data-aos-delay="400">Permite realizar depósitos de inversión desde la banca tradicional tanto como en cryptomonedas, este servicio permite a los titulares obtener tazas de retorno hasta un 20% de interés anual con tarifas marginales entre el 0.5% a 1.5% sobre la utilidad neta percibida, de la cual se destinará entre el 10 a 20% del costo tarifario al funding locket vault de NOVA LAB.</h2>
        
       </div>

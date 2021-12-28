@@ -80,7 +80,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Montserrat", Sans-serif;
-    color: #444444;
+    color: #ffffff;
     background-color: #09080d;
 }
 
@@ -152,12 +152,14 @@ h6 {
     margin: 0;
     max-height: 40px;
 }
+
 .logImg {
     padding: 10px;
     margin: 0;
     max-width: 100px;
     max-height: 200px;
 }
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -184,9 +186,11 @@ h6 {
 .navLink a:hover {
     color: #4528dc;
 }
+
 .login a:hover {
     color: #fffafa !important;
 }
+
 .navbar li {
     position: relative;
 }
@@ -214,7 +218,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
     color: #fff;
 }
 
@@ -264,11 +268,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
     color: #3498db;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -280,7 +284,7 @@ h6 {
     visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -292,7 +296,7 @@ h6 {
         left: -90%;
     }
 
-    .navbar .dropdown .dropdown:hover > ul {
+    .navbar .dropdown .dropdown:hover>ul {
         left: -100%;
     }
 }
@@ -364,7 +368,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
     color: #3498db;
 }
 
@@ -399,11 +403,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
     color: #3498db;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
     display: block;
 }
 
@@ -414,6 +418,7 @@ h6 {
     width: 100%;
     height: 70vh;
 }
+
 .shape {
     position: absolute;
     width: 100%;
@@ -440,7 +445,8 @@ h6 {
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 #hero .btn-get-started {
@@ -457,11 +463,9 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-    background-image: linear-gradient(
-        135deg,
-        var(--primary-color) 10%,
-        var(--secondary-color)
-    );
+    background-image: linear-gradient(135deg,
+            var(--primary-color) 10%,
+            var(--secondary-color));
     color: #fff;
 }
 
@@ -611,11 +615,9 @@ section {
     height: 2px;
     background: #222222;
     display: inline-block;
-    background-image: linear-gradient(
-        135deg,
-        var(--primary-color) 10%,
-        var(--secondary-color)
-    );
+    background-image: linear-gradient(135deg,
+            var(--primary-color) 10%,
+            var(--secondary-color));
 }
 
 .section-title h2::before {
@@ -640,6 +642,7 @@ section {
     padding: 100px 0;
     text-align: center;
 }
+
 .countRate {
     background: -webkit-linear-gradient(#4528dc, #57048a);
     -webkit-background-clip: text;
@@ -683,6 +686,7 @@ section {
 .content {
     color: #ccc;
 }
+
 .about .content h3 {
     font-weight: 600;
     font-size: 26px;
@@ -698,7 +702,7 @@ section {
     position: relative;
 }
 
-.about .content ul li + li {
+.about .content ul li+li {
     margin-top: 10px;
 }
 
@@ -734,11 +738,9 @@ section {
 }
 
 .about .content .btn-learn-more:hover {
-    background-image: linear-gradient(
-        135deg,
-        var(--primary-color) 10%,
-        var(--secondary-color)
-    );
+    background-image: linear-gradient(135deg,
+            var(--primary-color) 10%,
+            var(--secondary-color));
     color: #fff;
     text-decoration: none;
 }
@@ -869,11 +871,9 @@ section {
 }
 
 .services .icon-box:hover::before {
-    background-image: radial-gradient(
-        at top right,
-        #1f1b41 0%,
-        var(--e-global-color-8f64ec5) 70%
-    );
+    background-image: radial-gradient(at top right,
+            #1f1b41 0%,
+            var(--e-global-color-8f64ec5) 70%);
 
     box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 15%);
     border-style: solid;
@@ -946,10 +946,8 @@ section {
 --------------------------------------------------------------*/
 /* JUMBOTRON STYLE HERE */
 .jumbotron {
-    background: linear-gradient(
-            rgba(14, 231, 255, 0.122),
-            rgba(125, 250, 250, 0.45)
-        ),
+    background: linear-gradient(rgba(14, 231, 255, 0.122),
+            rgba(125, 250, 250, 0.45)),
         url(../img/background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1348,10 +1346,7 @@ br {
     position: relative;
 }
 
-.portfolio-details
-    .portfolio-details-slider
-    .swiper-pagination
-    .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
     background-color: #fff;
@@ -1359,10 +1354,7 @@ br {
     border: 1px solid #3498db;
 }
 
-.portfolio-details
-    .portfolio-details-slider
-    .swiper-pagination
-    .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #3498db;
 }
 
@@ -1385,7 +1377,7 @@ br {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
     margin-top: 10px;
 }
 
@@ -1597,11 +1589,9 @@ br {
 }
 
 .pricing .recommended .btn-buy:hover {
-    background-image: linear-gradient(
-        135deg,
-        var(--primary-color) 10%,
-        var(--secondary-color)
-    );
+    background-image: linear-gradient(135deg,
+            var(--primary-color) 10%,
+            var(--secondary-color));
     border-color: #4528dc;
 }
 
@@ -1713,7 +1703,7 @@ br {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
     margin-top: 25px;
 }
 
@@ -1779,11 +1769,9 @@ br {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background-image: linear-gradient(
-        135deg,
-        var(--primary-color) 10%,
-        var(--secondary-color)
-    );
+    background-image: linear-gradient(135deg,
+            var(--primary-color) 10%,
+            var(--secondary-color));
 }
 
 @-webkit-keyframes animate-loading {
@@ -1843,11 +1831,11 @@ br {
     }
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
     padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #3c3c3c;
@@ -1867,6 +1855,7 @@ br {
         display: inline-block;
     }
 }
+
 .form-control {
     display: block;
     width: 100%;
@@ -1879,38 +1868,31 @@ br {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
+}
+
 /*--------------------------------------------------------------
 # Table
 --------------------------------------------------------------*/
-.table {
-    --bs-table-bg: transparent;
-    --bs-table-accent-bg: transparent;
-    --bs-table-striped-color: #212529;
-    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-    --bs-table-active-color: #212529;
-    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-    --bs-table-hover-color: #212529;
-    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #4528dc;
-    vertical-align: top;
-    border-color: #dee2e6;
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Assets Table 
+--------------------------------------------------------------*/
+.iconEarn {
+    max-width: 40px;
+    height: auto; 
 }
-tbody,
-td,
-tfoot,
-th,
-thead,
-tr {
-    border-color: #4528dc;
-    border-style: solid;
-    border-width: 0;
+.borderless td, .borderless th {
+    border: none;
+    color: #ccc;
+}
+.calIco{
+color: #ccc;
 }
 
 /*--------------------------------------------------------------
@@ -1942,7 +1924,7 @@ tr {
 }
 
 #footer .footer-links a:first-child {
-    
+
     padding-left: 0;
 }
 
