@@ -71,13 +71,32 @@
 
     --card-bg-color: #16151a;
     --footer-bg-color: #121117;
+
+    --dorado-bg-one: #3f2200;
+    --dorado-bg-two: #ffc041;
+    --dorado-bg-treh: #b07520;
+    --dorado-bg-four: #ffc952;
+    --dorado-bg-five: #d1a930;
+    --dorado-bg-six: #f9de6e;
+    --dorado-bg-seven: #cead35;
+    --dorado-bg-eight: #914800;
+
+
 }
 
 /* #endregion Root */
 
 /*--------------------------------------------------------------
 # General
+ -webkit-linear-gradient(#4528dc, #57048a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 --------------------------------------------------------------*/
+
+
 body {
     font-family: "Montserrat", Sans-serif;
     color: #ffffff;
@@ -1883,16 +1902,95 @@ br {
 /*--------------------------------------------------------------
 # Assets Table 
 --------------------------------------------------------------*/
-.iconEarn {
-    max-width: 40px;
-    height: auto; 
+.assets header h2{
+   padding-bottom: 2rem;
 }
+
+ .nombre h6{
+     margin-bottom: 0;
+ }
+ .guideIcon span{
+    max-width: 100px;
+    height: auto;
+ }
+ .aprCont{
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 12px;
+ }
+.aprCont h6{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.aprCont h3{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.aprCont div{
+       padding-right: 15px;
+}
+.calIco{
+    max-width: 15px;
+    height: auto;
+}
+.iconEarn {
+    max-width: 16px;
+    height: auto;
+}
+
+.iconCrypto {
+    max-width: 40px;
+    height: auto;
+    
+}
+.mx-auto {
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+}
+.iconCryptoWall i{
+    max-width: 50px;
+    height: auto;
+}
+
+
 .borderless td, .borderless th {
     border: none;
     color: #ccc;
 }
-.calIco{
-color: #ccc;
+.bntAsset {
+    animation-delay: 0.8s;
+   
+    border: 2px solid #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 3px 35px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+}
+
+.bntAsset:hover {
+    background: -webkit-linear-gradient(217deg, rgba(63, 34, 0, 0.911), rgba(255, 192, 65, 0.585) 70.71%),
+        -webkit-linear-gradient(127deg, rgba(176, 116, 32, 0.612), rgba(255, 200, 82, 0.591) 70.71%),
+        -webkit-linear-gradient(336deg, rgba(206, 173, 53, 0.782), rgba(145, 73, 0, 0.585) 70.71%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+.totalPrice h3{
+    font-size: 50px;
+}
+.goldText{
+    background: -webkit-linear-gradient(217deg, rgba(63, 34, 0, 0.911), rgba(255, 192, 65, 0.585) 70.71%),
+        -webkit-linear-gradient(127deg, rgba(176, 116, 32, 0.612), rgba(255, 200, 82, 0.591) 70.71%),
+        -webkit-linear-gradient(336deg, rgba(206, 173, 53, 0.782), rgba(145, 73, 0, 0.585) 70.71%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*--------------------------------------------------------------
