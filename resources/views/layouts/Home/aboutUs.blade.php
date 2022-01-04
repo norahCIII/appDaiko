@@ -8,7 +8,7 @@
     <div class="row content">
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
         <p>
-          Daiko Bank es una Defi DAPP del Ecosistema NOVA LAB, la cual busca ofrecer tazas de retorno a la inversión superiores a los sistemas financieros tradicionales, creemos en una nueva economía, la cual se constituye como un sistema de fácil acceso, eficiente.
+          Daiko Bank es una plataforma del Ecosistema NOVA LAB, la cual busca ofrecer tazas de retorno a la inversión superiores a los sistemas financieros tradicionales, creemos en una nueva economía, la cual se constituye como un sistema de fácil acceso, eficiente.
         </p>
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-up" data-aos-delay="300">

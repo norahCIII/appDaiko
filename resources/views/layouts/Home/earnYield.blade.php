@@ -1,44 +1,4 @@
-<!--<section id="about" class="about">
-    <div class="container">
 
-        <div class="row content banPool">
-            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
-
-            </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 d-flex" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="btnLearnMore">Todas las monedas</a>
-            </div>
-            <div class="col-lg-2 pt-4 pt-lg-0 d-flex" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="btnLearnMore">Gold Token</a>
-            </div>
-            <div class="col-lg-2 pt-4 pt-lg-0 d-flex" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="btnLearnMore">NTF Comming Soon</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-<div class="container">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nombre de la moneda</th>
-                <th></th>
-                <th>Taza de interes</th>
-            </tr>
-        </thead>
-        <tbody id="data">
-            <td>Nombre</td>
-            <td></td>
-            <td>Símbolo</td>
-        </tbody>
-        <tfoot>
-            <td>Nombre</td>
-            <td></td>
-            <td>Porcentaje</td>
-        </tfoot>
-    </table>
-</div> \-->
 <div class="mainAssets container md:flex justify-between">
     <div class="flex flex-col md:col-span-5 lg:col-span-5 w-full max-w-3xl lg:pr-px mb-16 md:mb-0">
         <header>
@@ -88,13 +48,17 @@
                                     </a>
                                 </span>
                             </td>
-                            <td class="mx-auto align-middle text-center " style="width: 200px;">
-                                <span type="button" class="bntAsset ">DEPOSITAR</span>
-                            </td>
+                            
                             <td class="mx-auto align-middle text-center" style="width: 200px;">
                                 <div class="goldText">
                                     <span>0.000002 G7</span>
                                 </div>
+                            </td>
+                            <td class="mx-auto align-middle text-center " style="width: 200px;">
+                                <span type="button" class="bntAsset ">DEPOSITAR</span>
+                            </td>
+                            <td class="mx-auto align-middle text-center " style="width: 200px;">
+                                <span type="button" class="bntAsset ">RETIRAR</span>
                             </td>
                         </tr>
                         <tr>
@@ -131,13 +95,17 @@
                                     </a>
                                 </span>
                             </td>
-                            <td class="mx-auto align-middle text-center " style="width: 200px;">
-                                <span type="button" class="bntAsset ">DEPOSITAR</span>
-                            </td>
+                            
                             <td class="mx-auto align-middle text-center" style="width: 200px;">
                                 <div class="goldText">
                                     <span>0.000002 G7</span>
                                 </div>
+                            </td>
+                            <td class="mx-auto align-middle text-center " style="width: 200px;">
+                                <span type="button" class="bntAsset ">DEPOSITAR</span>
+                            </td>
+                            <td class="mx-auto align-middle text-center " style="width: 200px;">
+                                <span type="button" class="bntAsset ">RETIRAR</span>
                             </td>
                         </tr>
                         <tr>
@@ -174,13 +142,17 @@
                                     </a>
                                 </span>
                             </td>
-                            <td class="mx-auto align-middle text-center " style="width: 200px;">
-                                <span type="button" class="bntAsset ">DEPOSITAR</span>
-                            </td>
+                            
                             <td class="mx-auto align-middle text-center" style="width: 200px;">
                                 <div class="goldText">
                                     <span>0.000002 G7</span>
                                 </div>
+                            </td>
+                            <td class="mx-auto align-middle text-center " style="width: 200px;">
+                                <span type="button" class="bntAsset ">DEPOSITAR</span>
+                            </td>
+                            <td class="mx-auto align-middle text-center " style="width: 200px;">
+                                <span type="button" class="bntAsset ">RETIRAR</span>
                             </td>
                         </tr>
                     </tbody>

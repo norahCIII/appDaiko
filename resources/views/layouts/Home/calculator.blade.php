@@ -16,8 +16,7 @@
             <input name="capital_depositado" required="required" step="0.000001" type="number" class="sc-efQSVx hMMbuG">
 
             <ul>
-              <!-- <h3>Que Crypto?</h3>
-              <input data-testid="EarnCalcHowMuchInputHowMuchInput" class="sc-efQSVx hMMbuG" >-->
+              
               <h3>Interes</h3>
 
               <input name="tasa_de_interes" required="required" step="0.000001" type="number" class="sc-efQSVx hMMbuG">
