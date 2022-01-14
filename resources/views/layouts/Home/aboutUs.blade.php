@@ -15,11 +15,13 @@
         <p>
           justo y redituable que permita alcanzar una mayor oportunidad de libertad financiera desde un esquema de inversión descentralizado donde el usuario posee el control de sus activos sin intermediarios.
         </p>
-        <a href="#" class="btn-learn-more ">Aprende Más</a>
-      </div>
-    </div>
 
-  </div>
+        <div class="container">
+          <div class="btn btn-dark-moon">Aprende Más</div>
+        </div>
+      </div>
+
+    </div>
 </section>
 <!-- End About Us Section -->
 @yield('aboutUs')

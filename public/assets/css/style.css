@@ -9,12 +9,75 @@
 # Font
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap");
 
+/*--------------------------------------------------------------
+# Font Primary
+border: -webkit-linear-gradient(217deg,
+            rgb(40 37 188 / 0%),
+            rgb(255 174 10 / 83%) 70.71%),
+        -webkit-linear-gradient(127deg, rgb(180 139 80), rgba(255,
+                200,
+                82,
+                0.591) 70.71%),
+        -webkit-linear-gradient(336deg, rgb(211 194 131 / 0%), rgba(159, 139, 119, 0.238) 70.71%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+--------------------------------------------------------------*/
 /* #region Root */
+.logLogin {
+    width: 130px !important;
+}
+
+/*--------------------------------------------------------------
+# Btnsbackground: linear-gradient(
+90deg
+,#111,#111),linear-gradient(
+90deg
+,#bda26f,#bda26f);
+    background-clip: padding-box,border-box;
+    background-origin: padding-box,border-box;
+}
+--------------------------------------------------------------*/
+.btn-dark-moon {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #111, #111);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #111, #111);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 1px solid #bda26f;
+    width: 200px;
+    padding: 3px 35px;
+}
+
+.btn-dark-moon-hero {
+    border: 1px solid var(--btn-color-lineal);
+    padding: 3px 35px;
+    margin-left: 30px;
+    border-radius: 0, 5px;
+    color: #fff;
+    background: var(--btn-color-bg)
+}
+
+.btn-dark-moon-hero:hover {
+    border: 1px solid #bda26f;
+    padding: 3px 35px;
+    margin-left: 30px;
+    border-radius: 0, 5px;
+    color: #fff;
+    background: #111;
+}
+
+
+
 
 :root {
     --primary-font: "Montserrat", sans-serif;
-    --secondary-font: "Poppins", sans-serif;
+    --secondary-font: "Kanit", sans-serif;
+    --tertiary-font: "Poppins", sans-serif;
 
     --h1-size: 4rem;
     --h1-weight: 900;
@@ -36,7 +99,9 @@
 
     --p-size: 1rem;
     --p-weight: 400;
-
+    /*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
     --header-bg-color: #121117;
     --nav-brand-height: 55px;
     --top-nav-item-color: #f5f5f5;
@@ -44,11 +109,19 @@
     --e-global-color-8f64ec5: #1c1b1b;
     --primary-color: #4528dc;
     --secondary-color: #57048a;
-
+    /*--------------------------------------------------------------
+# Hero Colors
+--------------------------------------------------------------*/
+    --hero-color-grad-one: #f9f9f9;
+    --hero-color-grad-two: #f9f9f9;
+    /*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
     --white-color: #f9f9f9;
     --black-color: #040402;
     --grey-color: #f3f5f7;
     --dark-grey-color: #191919;
+    --grey-daiko-color: #565656;
 
     --primary-t-color: #f5f5f5;
     --secondary-t-color: #f5f5f5;
@@ -71,7 +144,8 @@
 
     --card-bg-color: #16151a;
     --footer-bg-color: #121117;
-
+    --btn-color-lineal: #bda26f;
+    --btn-color-bg: #111;
     --dorado-bg-one: #3f2200;
     --dorado-bg-two: #ffc041;
     --dorado-bg-treh: #b07520;
@@ -81,7 +155,7 @@
     --dorado-bg-seven: #cead35;
     --dorado-bg-eight: #914800;
 
-
+    --dorado-bg-ten: #ffa200;
 }
 
 /* #endregion Root */
@@ -96,11 +170,10 @@
 
 --------------------------------------------------------------*/
 
-
 body {
-    font-family: "Montserrat", Sans-serif;
+    font-family: var(--primary-font);
     color: #ffffff;
-    background-color: #09080d;
+    background: #000000;
 }
 
 a {
@@ -119,8 +192,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", Sans-serif;
-    font-weight: 700;
+    font-family: "Kanit", Sans-serif;
+    font-weight: 600;
 }
 
 /*--------------------------------------------------------------
@@ -137,19 +210,23 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Header 
+    transition: all 0.5s;
+       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.68) 80%, rgba(0, 255, 255, 0) 0%);
+    padding: 12px;
 --------------------------------------------------------------*/
 #header {
-    z-index: 997;
-    transition: all 0.5s;
-
-    background: #121117;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 1));
 }
 
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 12px 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 1));
 }
+
 
 #header .logo h1 {
     font-size: 30px;
@@ -190,6 +267,17 @@ h6 {
     padding: 0px 0 0px 180px !important;
 }
 
+.nav-link {
+    color: var(--grey-color);
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: var(--btn-color-lineal) !important;
+}
+
 .navbar {
     padding: 0;
 }
@@ -220,9 +308,8 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    color: #ffffff;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -243,17 +330,17 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-    background: #222222;
+    border: 1px solid #bda26f;
     padding: 3px 35px;
     margin-left: 30px;
-    border-radius: 50px;
+    border-radius: 0, 5px;
     color: #fff;
+    background: #111;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #fff;
-    background: -webkit-linear-gradient(#4528dc, #57048a);
 }
 
 .navbar .dropdown ul {
@@ -433,16 +520,29 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
     width: 100%;
     height: 70vh;
+}
+
+#hero span {
+    color: none;
 }
 
 .shape {
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 165px;
+    line-height: 0;
+    direction: ltr;
+    overflow: hidden;
+    z-index: -2;
+}
+.shapeTwo {
+    position: absolute;
+    width: 100%;
+    left: 0;
     line-height: 0;
     direction: ltr;
     overflow: hidden;
@@ -450,42 +550,81 @@ h6 {
 }
 
 #hero h1 {
-    margin: 0 0 10px 0;
-    font-size: 48px;
+    letter-spacing: 1px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 56px;
-    background: -webkit-linear-gradient(#4528dc, #57048a);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    line-height: 38px;
+    color: #fff;
 }
 
 #hero h2 {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 50px;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 #hero .btn-get-started {
-    font-family: "Montserrat", Sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 10px 30px;
-    border-radius: 50px;
     transition: 0.5s;
-    color: #ffffff;
+    padding: 4px;
     border: 2px solid #ffffff;
+    padding: 3px 35px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+#hero .btn-get-started-active {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: 0.5s;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    color: var(--e-global-color-8f64ec5);
+    padding: 3px 35px;
+    margin-left: 30px;
+    border-radius: 50px;
 }
 
 #hero .btn-get-started:hover {
-    background-image: linear-gradient(135deg,
-            var(--primary-color) 10%,
-            var(--secondary-color));
-    color: #fff;
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    color: var(--e-global-color-8f64ec5);
+    border: 2px solid var(--secondary-bg-color);
 }
 
 #hero .animated {
@@ -565,6 +704,10 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
 # Baner Pool
 --------------------------------------------------------------*/
 
@@ -586,7 +729,7 @@ section {
 }
 
 .section-bg {
-    background-color: #09080d;
+    background-color: none;
 }
 
 .section-title-single {
@@ -620,8 +763,25 @@ section {
 }
 
 .section-title h2 {
-    font-size: 32px;
-    color: white;
+    font-size: 34px;
+    font-family: var(--primary-font);
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -630,13 +790,22 @@ section {
 .section-title h2::before,
 .section-title h2::after {
     content: "";
-    width: 50px;
+    width: 25px;
     height: 2px;
-    background: #222222;
+
     display: inline-block;
-    background-image: linear-gradient(135deg,
-            var(--primary-color) 10%,
-            var(--secondary-color));
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
 }
 
 .section-title h2::before {
@@ -658,15 +827,50 @@ section {
 .clients {
     color: rgb(255, 255, 255);
 
-    padding: 100px 0;
+    padding: 150px 0;
     text-align: center;
 }
 
 .countRate {
-    background: -webkit-linear-gradient(#4528dc, #57048a);
+    font-family: var(--primary-font);
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.countRate span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.clients h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.clients p {
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    color: var(--grey-daiko-color);
+}
+
+.clients h3 {
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--white-color);
+    font-size: 20px;
 }
 
 .clients .col-lg-3 {
@@ -736,31 +940,49 @@ section {
 
 .about .content p:last-child {
     margin-bottom: 0;
-    color: #eee;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.about .content p:first-child {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 
 .about .content .btn-learn-more {
-    font-family: "Montserrat", Sans-serif;
-    font-weight: 600;
-    font-size: 14px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 12px 32px;
-    border-radius: 50px;
-    transition: 0.3s;
-    line-height: 1;
-    color: #fbfbfb;
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-    margin-top: 6px;
-    border: 2px solid #ffffff;
+
+    transition: 0.5s;
+    padding: 4px;
+    border: 2px solid;
+    border-image: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg);
+    border-image-slice: 6;
 }
 
 .about .content .btn-learn-more:hover {
-    background-image: linear-gradient(135deg,
-            var(--primary-color) 10%,
-            var(--secondary-color));
-    color: #fff;
     text-decoration: none;
 }
 
@@ -869,8 +1091,20 @@ section {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: #16151a;
-    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    border: 3px solid;
+    border-image: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg);
+    border-image-slice: 6;
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.12);
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
@@ -879,7 +1113,7 @@ section {
 .services .icon-box::before {
     content: "";
     position: absolute;
-    background-color: transparent;
+
     right: -60px;
     top: -40px;
     width: 100px;
@@ -890,16 +1124,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-    background-image: radial-gradient(at top right,
-            #1f1b41 0%,
-            var(--e-global-color-8f64ec5) 70%);
-
-    box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 15%);
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-
     border-color: #8176ff00;
-
     right: 0;
     top: 0;
     width: 100%;
@@ -915,14 +1140,25 @@ section {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background: #f8f8f8;
+
     transition: all 0.3s ease-in-out;
 }
 
 .services .icon i {
-    font-size: 36px;
+    font-size: 80px;
     line-height: 1;
-    background: -webkit-linear-gradient(#4528dc, #57048a);
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -935,10 +1171,7 @@ section {
 }
 
 .services .title a {
-    background: -webkit-linear-gradient(#4528dc, #57048a);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--grey-color);
 }
 
 .services .description {
@@ -949,11 +1182,11 @@ section {
 
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
-    color: #fff;
+    color: none;
 }
 
 .services .icon-box:hover .icon {
-    background: #fff;
+    background: none;
 }
 
 .services .icon-box:hover .icon i {
@@ -1045,6 +1278,7 @@ br {
 }
 
 .more-services .card-title {
+    font-size: 300px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 15px;
@@ -1138,7 +1372,7 @@ br {
     min-height: 200px;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     position: relative;
-    background: #09080d;
+
     color: #ccc;
 }
 
@@ -1154,7 +1388,6 @@ br {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #111;
     color: #ccc;
 }
 
@@ -1198,11 +1431,11 @@ br {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #3498db;
+    border: 1px solid #000203;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background: -webkit-linear-gradient(#4528dc, #57048a);
+    background: -webkit-linear-gradient(#ffffff, #b18200);
 }
 
 @media (max-width: 767px) {
@@ -1505,7 +1738,19 @@ br {
     border-radius: 8px;
     position: relative;
     overflow: hidden;
-    border: 2px solid #4528dc;
+    border: 3px solid;
+    border-image: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg);
+    border-image-slice: 6;
 }
 
 .pricing .box h3 {
@@ -1519,7 +1764,7 @@ br {
 
 .pricing .box h4 {
     font-size: 42px;
-    color: #4528dc;
+    color: var(--dorado-bg-ten);
     font-weight: 500;
     font-family: "Montserrat", Sans-serif;
     margin-bottom: 20px;
@@ -1562,18 +1807,7 @@ br {
 }
 
 .hMMbuG {
-    width: 70%;
-    height: 50 px;
-    padding: 0 px 16 px 0 px 26 px;
-    border-radius: 10 px;
-    border: none;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 700;
-    color: rgb(14, 23, 102);
-    font-family: "Montserrat", Sans-serif;
-    background: rgb(239, 238, 249);
-    position: relative;
+    color: none;
 }
 
 .pricing .box .btn-wrap {
@@ -1582,25 +1816,74 @@ br {
 }
 
 .pricing .box .btn-buy {
-    display: inline-block;
-    padding: 10px 40px 12px 40px;
-    border-radius: 50px;
-    border: 2px solid #4528dc;
-    color: #ffffff;
-    font-size: 14px;
+    font-family: var(--secondary-font);
     font-weight: 400;
-    font-family: "Montserrat", Sans-serif;
-    font-weight: 600;
-    transition: 0.3s;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+    padding: 4px;
+    border: 2px solid;
+    border-image: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg);
+    border-image-slice: 6;
 }
 
 .pricing .box .btn-buy:hover {
-    background: #4528dc;
-    color: #fff;
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    color: var(--e-global-color-8f64ec5);
+    text-decoration: none;
 }
 
-.pricing .recommended {
-    border-color: #4528dc;
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: var(--black-color) !important;
+}
+
+.pricing .recommended h3,
+h4 {
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .pricing .recommended .btn-buy {
@@ -1608,10 +1891,7 @@ br {
 }
 
 .pricing .recommended .btn-buy:hover {
-    background-image: linear-gradient(135deg,
-            var(--primary-color) 10%,
-            var(--secondary-color));
-    border-color: #4528dc;
+    border: 2px solid var(--dorado-bg-one);
 }
 
 /*--------------------------------------------------------------
@@ -1671,7 +1951,7 @@ br {
 .contact .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: -webkit-linear-gradient(#4528dc, #57048a);
+    background: -webkit-linear-gradient(#acacac, #ffffff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1688,8 +1968,21 @@ br {
 }
 
 .contact .social-links a:hover {
-    background: #3498db;
-    color: #fff;
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact .info {
@@ -1698,7 +1991,18 @@ br {
 
 .contact .info i {
     font-size: 32px;
-    background: -webkit-linear-gradient(#4528dc, #57048a);
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1883,7 +2187,7 @@ br {
     font-weight: 400;
     line-height: 1.6;
     color: #212529;
-    background-color: #007dfa !important;
+
     background-clip: padding-box;
     border: 1px solid #ced4da;
     -webkit-appearance: none;
@@ -1902,37 +2206,44 @@ br {
 /*--------------------------------------------------------------
 # Assets Table 
 --------------------------------------------------------------*/
-.assets header h2{
-   padding-bottom: 2rem;
+.assets header h2 {
+    padding-bottom: 2rem;
 }
 
- .nombre h6{
-     margin-bottom: 0;
- }
- .guideIcon span{
+.nombre h6 {
+    margin-bottom: 0;
+}
+
+.guideIcon span {
     max-width: 100px;
     height: auto;
- }
- .aprCont{
+}
+
+.aprCont {
     align-items: center;
     margin-bottom: 10px;
     margin-top: 12px;
- }
-.aprCont h6{
+}
+
+.aprCont h6 {
     font-size: 13px;
     margin-bottom: 0;
 }
-.aprCont h3{
+
+.aprCont h3 {
     font-size: 13px;
     margin-bottom: 0;
 }
-.aprCont div{
-       padding-right: 15px;
+
+.aprCont div {
+    padding-right: 15px;
 }
-.calIco{
+
+.calIco {
     max-width: 35px;
     height: auto;
 }
+
 .iconEarn {
     max-width: 16px;
     height: auto;
@@ -1941,25 +2252,27 @@ br {
 .iconCrypto {
     max-width: 40px;
     height: auto;
-    
 }
+
 .mx-auto {
-    margin-right: 10px!important;
-    margin-left: 10px!important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
 }
-.iconCryptoWall i{
+
+.iconCryptoWall i {
     max-width: 50px;
     height: auto;
 }
 
-
-.borderless td, .borderless th {
+.borderless td,
+.borderless th {
     border: none;
     color: #ccc;
 }
+
 .bntAsset {
     animation-delay: 0.8s;
-   
+
     border: 2px solid #ffffff;
     font-family: "Montserrat", Sans-serif;
     font-weight: 600;
@@ -1973,24 +2286,53 @@ br {
 }
 
 .bntAsset:hover {
-    background: -webkit-linear-gradient(217deg, rgba(63, 34, 0, 0.911), rgba(255, 192, 65, 0.585) 70.71%),
-        -webkit-linear-gradient(127deg, rgba(176, 116, 32, 0.612), rgba(255, 200, 82, 0.591) 70.71%),
-        -webkit-linear-gradient(336deg, rgba(206, 173, 53, 0.782), rgba(145, 73, 0, 0.585) 70.71%);
+    background: -webkit-linear-gradient(217deg,
+            rgba(63, 34, 0, 0.911),
+            rgba(255, 192, 65, 0.585) 70.71%),
+        -webkit-linear-gradient(127deg, rgba(176, 116, 32, 0.612), rgba(255,
+                200,
+                82,
+                0.591) 70.71%),
+        -webkit-linear-gradient(336deg, rgba(206, 173, 53, 0.782), rgba(145,
+                73,
+                0,
+                0.585) 70.71%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-  
 }
-.totalPrice h3{
+
+.totalPrice h3 {
     font-size: 50px;
 }
-.goldText{
-    background: -webkit-linear-gradient(217deg, rgba(63, 34, 0, 0.911), rgba(255, 192, 65, 0.585) 70.71%),
-        -webkit-linear-gradient(127deg, rgba(176, 116, 32, 0.612), rgba(255, 200, 82, 0.591) 70.71%),
-        -webkit-linear-gradient(336deg, rgba(206, 173, 53, 0.782), rgba(145, 73, 0, 0.585) 70.71%);
+
+.goldText {
+    background: -webkit-linear-gradient(217deg,
+            rgba(63, 34, 0, 0.911),
+            rgba(255, 192, 65, 0.585) 70.71%),
+        -webkit-linear-gradient(127deg, rgba(176, 116, 32, 0.612), rgba(255,
+                200,
+                82,
+                0.591) 70.71%),
+        -webkit-linear-gradient(336deg, rgba(206, 173, 53, 0.782), rgba(145,
+                73,
+                0,
+                0.585) 70.71%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#canvas1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100 vh;
+    z-index: -1;
 }
 
 /*--------------------------------------------------------------
@@ -2001,9 +2343,16 @@ br {
     margin: 0;
     max-height: 100px;
 }
+footer{
+    padding-top: 60px;
 
+	background-size: cover;
+	
+	height: 360px;
+    background-image: url("../img/sol.png") ; 
+}
 #footer {
-    background: #09080d;
+    
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     padding: 30px 0;
     color: #ffffff;
@@ -2022,7 +2371,6 @@ br {
 }
 
 #footer .footer-links a:first-child {
-
     padding-left: 0;
 }
 

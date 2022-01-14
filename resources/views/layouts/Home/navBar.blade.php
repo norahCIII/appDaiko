@@ -7,12 +7,12 @@
 
          <nav id="navbar" class="navbar">
              <ul class="navLink">
-                 <li><a class="nav-link scrollto " href="{{ url('../gana') }}">Assets</a></li>
-                 <li><a class="nav-link scrollto" href="{{ url('../pool') }}">Pool</a></li>
-                 <li><a class="nav-link scrollto" href="{{ url('../pool') }}">Funding Pool</a></li>
-                 <li><a class="nav-link scrollto " href="#portfolio">Intercambio</a></li>
-                 <li><a class="nav-link scrollto" href="{{ url('../about') }}">Nosotros</a></li>
-                 <li><a class="nav-link scrollto" href="#contact">Soporte</a></li>
+                 <li><a class="nav-link scrollto " href="{{ url('../gana') }}">ASSETS</a></li>
+                 <li><a class="nav-link scrollto" href="{{ url('../pool') }}">POOL</a></li>
+                 <li><a class="nav-link scrollto" href="{{ url('../pool') }}">FUNDING POOL</a></li>
+                 <li><a class="nav-link scrollto " href="#portfolio">INTERCAMBIO</a></li>
+                 <li><a class="nav-link scrollto" href="{{ url('../about') }}">NOSOTROS</a></li>
+                 <li><a class="nav-link scrollto" href="#contact">SOPORTE</a></li>
                  @if (Route::has('login'))
                  @auth
                  <li> <a class="getstarted scrollto" href="{{ url('../dashboard') }}">Dashboard</a></li>
@@ -21,9 +21,9 @@
              @else
              <ul class="login">
 
-                 <li><a class="getstarted scrollto" href="{{ route('login') }}">Ingresar</a></li>
+                 <li><a class="btn getstarted scrollto" href="{{ route('login') }}">Ingresar</a></li>
                  @if (Route::has('register'))
-                 <li> <a class="getstarted scrollto" href="{{ route('register') }}" class="ms-4 text-muted">Registrar</a></li>
+                 <li> <a class="btn getstarted scrollto" href="{{ route('register') }}" class="ms-4 text-muted">Registrar</a></li>
                  @endif
                  @endif
                  @endif

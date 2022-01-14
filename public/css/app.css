@@ -6,6 +6,15 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+
+ .logLogin{
+    width:130px !important;
+  }
+  element.style {
+    filter: blur(150px) opacity(0.6);
+  }
 :root {
   --bs-blue: #3490dc;
   --bs-indigo: #6574cd;
@@ -36,7 +45,7 @@
   --bs-warning: #ffed4a;
   --bs-danger: #e3342f;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: #000000;
   --bs-primary-rgb: 52, 144, 220;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 56, 193, 114;
@@ -80,7 +89,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-dark);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -380,7 +389,6 @@ button:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
 }
-
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
@@ -4509,7 +4517,8 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  --tw-bg-opacity: 1;
+    background-color: rgba(8,8,8,var(--tw-bg-opacity));
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;

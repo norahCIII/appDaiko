@@ -1,5 +1,5 @@
 <template>
-  <Head title="Log in" />
+  <Head title="Log in" /> 
 
   <jet-authentication-card>
     <template #logo>
@@ -54,7 +54,12 @@
     </div>
   </jet-authentication-card>
 </template>
-
+<style >
+.bg-light-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(189,162,111,var(--tw-bg-opacity));
+}
+</style>
 <script>
 import { defineComponent } from 'vue'
 import JetAuthenticationCard from '@/Jetstream/AuthenticationCard.vue'

@@ -21,9 +21,21 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/animation/style.css" rel="stylesheet">
 </head>
-
+<body>
+<img src="" alt="">
+<canvas id="canvas1" width="1495" height="794"></canvas>
+</body>
 <!-- Vendor JS Files -->
+<!-- wave JavaScript -->
+<script src='assets/js/wave/three.min.js'></script>
+    <script src='assets/js/wave/Projector.js'></script>
+    <script src='assets/js/wave/CanvasRenderer.js'></script>
+    <script src="assets/js/wave/index.js"></script>
+    <!-- bubbly JavaScript -->
+    <script src="{{asset('assets/js/bubbly-bg.js')}}"></script>
+    <!-- amcharts -->
 <script src="assets/vendor/purecounter/purecounter.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -35,9 +47,13 @@
 <script src="assets/js/mergeWin.js"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
-<script src="{{asset('js/app.js')}}"></script>
 
+<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{asset('assets/js/app.js')}}"></script>
 
+<script src="{{asset('assets/js/jquery-2.1.1.js')}}"></script>
+<script src="{{asset('assets/js/animation/main.js')}}"></script>
+<script>
+</script>
 </html>
 @yield('metaLinks')
