@@ -1490,9 +1490,13 @@ br {
 /*--------------------------------------------------------------
 # Calculator
 --------------------------------------------------------------*/
+.screen{
+    justify-content: space-between;
+}
 #calCulator{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 1));
     margin-top: 50px;
+    
 }
 
 
@@ -1508,7 +1512,7 @@ br {
     align-items: center;
     border: 1px
  solid rgb(65, 81, 114);
-    color: #707070 !important;
+ color: var(--white-color) !important;
     border: 1px
  solid #bda26f;
     padding-left: 16px;
@@ -1782,15 +1786,13 @@ hr.style {
 .css-f79bhg {
     box-sizing: border-box;
     display: flex;
-    height: 56px;
+    height: 50px;
     border-radius: 4px;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
     color: #fff !important;
-
-
     background: -webkit-linear-gradient(to right, #111, #111);
     background: linear-gradient(to right, #111, #111);
 }
@@ -1804,7 +1806,7 @@ hr.style {
 
 .css-46cmgp {
     box-sizing: border-box;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 28px;
 }
 
@@ -1848,7 +1850,7 @@ hr.style {
     border-radius: 4px;
     outline: 0px;
     padding: 16px !important;
-    color: #fff !important;
+    color: var(--white-color)!important;
     border: 1px solid #bda26f !important;
     background: -webkit-linear-gradient(to right, #111, #111);
     background: linear-gradient(to right, #111, #111);
@@ -1882,7 +1884,21 @@ hr.style {
     justify-content: space-between;
     font-size: 13px;
     line-height: 16px;
-    color: rgb(149, 157, 174);
+        background: conic-gradient(from 
+180deg at 50% 50%, #3f2200 
+-41.21deg, #ffc041 
+0.05deg, #b07520 
+74.45deg, #ffc952 
+115.85deg, #b07520 
+143.94deg, #cead35 
+176.48deg, #ffc041 
+232.74deg, #cead35 
+284.83deg, #cead35 
+318.79deg, #ffa200 
+360.05deg), #914800;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 8px;
 }
 
@@ -1908,7 +1924,7 @@ hr.style {
 .css-g1n7ys {
     box-sizing: border-box;
     font-size: 13px;
-    color: var(--sub-text);
+    color: var(--white-color);
 }
 
 .css-roynbj {
@@ -1918,7 +1934,21 @@ hr.style {
 .css-c4q7yl {
     box-sizing: border-box;
     font-size: 15px;
-    color: rgb(128, 199, 38);
+    background: conic-gradient(from 
+    180deg at 50% 50%, #3f2200 
+    -41.21deg, #ffc041 
+    0.05deg, #b07520 
+    74.45deg, #ffc952 
+    115.85deg, #b07520 
+    143.94deg, #cead35 
+    176.48deg, #ffc041 
+    232.74deg, #cead35 
+    284.83deg, #cead35 
+    318.79deg, #ffa200 
+    360.05deg), #914800;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 .css-wk7a33 {
@@ -2373,7 +2403,7 @@ textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    color: var(--black-color) !important;
+    color: var(--sub-text) !important;
 }
 
 .pricing .recommended h3,
