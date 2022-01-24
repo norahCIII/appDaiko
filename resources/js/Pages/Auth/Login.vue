@@ -15,6 +15,7 @@
       </div>
 
       <form @submit.prevent="submit">
+        
         <div class="mb-3">
           <jet-label for="email" value="Correo Electronico" />
           <jet-input id="email" type="email" v-model="form.email" required autofocus />

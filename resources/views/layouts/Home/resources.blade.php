@@ -53,7 +53,7 @@
 
 <script src="{{asset('assets/js/jquery-2.1.1.js')}}"></script>
 <script src="{{asset('assets/js/animation/main.js')}}"></script>
-<script>
-</script>
+<script src="{{asset('assets/js/animation/jquery-ui.min.js')}}"></script>
+
 </html>
 @yield('metaLinks')

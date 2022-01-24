@@ -1,12 +1,9 @@
 <section id="contact" class="contact">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>CONTACTO</h2>
         </div>
-
         <div class="row">
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
               <h3>DAIKO BANK</h3>

@@ -2,7 +2,7 @@
 <section id="about" class="about">
   <div class="container">
     <div class="section-title" data-aos="fade-up">
-      <h2>QUE ES DAIKO BANK</h2>
+      <h2>Que es Daiko Bank</h2>
     </div>
 
     <div class="row content">

@@ -3,7 +3,7 @@
 
 @extends('layouts.Home.footer')
 
-@extends('layouts.Home.contacto')
+
 @extends('layouts.Home.support')
 @extends('layouts.Home.calculator')
 @extends('layouts.Home.services')
