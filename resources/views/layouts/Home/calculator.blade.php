@@ -1,5 +1,9 @@
 <section id="calCulator">
   <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>LO QUE PODRIAS ESTAR GANANDO</h2>
+      <p></p>
+    </div>
     <div class="price-box">
       <div class="row">
         <div class="col-sm-6">

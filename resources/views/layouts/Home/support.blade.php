@@ -4,10 +4,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="heading-title">
-                            <small class="iq-font-green">Executive Partners</small>
+                        <div class="section-title" data-aos="fade-up">
+                            <small class="iq-font-green">Our Partners</small>
                             <h2 class="title iq-tw-6">Partners & Supporters</h2>
-                            <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -19,59 +19,10 @@
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/02.png" alt="#">
+                           
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/03.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/04.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/05.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/06.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/06.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/05.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/04.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/05.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/06.png" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="Signal-partners">
-                            <img class="img-fluid center-block" src="assets/img/support/01.png" alt="#">
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>

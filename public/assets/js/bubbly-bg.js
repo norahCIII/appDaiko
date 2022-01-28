@@ -3,10 +3,10 @@ var circles = [],
     context = canvas.getContext("2d"),
     
     // SETTINGS 
-    opacity = 1,                                      // the opacity of the circles 0 to 1rgba(206, 168, 81, 1)
-    colors = ['rgba(211, 173, 95,' + opacity + ')',       // an array of rgb colors for the circles
-              'rgba(211, 173, 95,' + opacity + ')',
-              'rgba(211, 173, 95,' + opacity + ')'
+    opacity = 1,                                      // the opacity of the circles 0 to 1
+    colors = ['rgba(249, 183, 7,' + opacity + ')',       // an array of rgb colors for the circles
+              'rgba(249, 183, 7,' + opacity + ')',
+              'rgba(249, 183, 7,' + opacity + ')'
              ],
     minSize = 0.5,                                        // the minimum size of the circles in px
     maxSize = 1,                                       // the maximum size of the circles in px

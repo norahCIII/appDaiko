@@ -12,9 +12,7 @@
              </span>
            </h1>
          </h1>
-         <h2 data-aos="fade-up" data-aos-delay="400">Comience a obtener las mejores utilidades invirtiendo en
-           cryptomonedas estables y reciba un pago de recompeanza entre
-           un 17% a un 20% de interez simple anual.</h2>
+         <p data-aos="fade-up" data-aos-delay="400">Comience a obtener las mejores utilidades invirtiendo en cripto activos estables y reciba un pago de interés entre un 7% a un 20% redimible cada semana.</p>
          <div data-aos="fade-up" data-aos-delay="800">
            <a href="#about" class="btn btn-dark-moon-hero">Registrate</a>
            <a href="#about" class="btn btn-dark-moon-hero">Empieza a ganar hoy</a>

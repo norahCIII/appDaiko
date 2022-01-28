@@ -1,27 +1,46 @@
 <!-- ======= About Us Section ======= -->
 <section id="about" class="about">
+<div class="section-title" data-aos="fade-up">
+      <h2>QUE ES DAIKO</h2>
+      <p></p>
+    </div>  
   <div class="container">
-    <div class="section-title" data-aos="fade-up">
-      <h2>Que es Daiko Bank</h2>
-    </div>
+    <div class="card">
+      <div class="container-fliud">
+        <div class="wrapper row">
+          <div class="preview col-md-6">
+            <div class="preview-pic tab-content">
+              <div class="row">
+                <div class="order-first">
+                  <div class="card ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/mEQ8NJsAowg" title="Player One" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div><!-- end card -->
+                </div><!-- col-sm-6 -->
+              </div><!-- end row -->
+              <div class="row">
+              <h3 class="product-title">Aqui puede ir algo</h3>
 
-    <div class="row content">
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-        <p>
-          Daiko Bank es una plataforma del Ecosistema NOVA LAB, la cual busca ofrecer tazas de retorno a la inversión superiores a los sistemas financieros tradicionales, creemos en una nueva economía, la cual se constituye como un sistema de fácil acceso, eficiente.
-        </p>
-      </div>
-      <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-up" data-aos-delay="300">
-        <p>
-          justo y redituable que permita alcanzar una mayor oportunidad de libertad financiera desde un esquema de inversión descentralizado donde el usuario posee el control de sus activos sin intermediarios.
-        </p>
+              </div><!-- end row -->
+            </div>
+            <ul class="preview-thumbnail nav nav-tabs">
+              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="" /></a></li>
+            </ul>
+          </div>
+          <div class="details col-md-6">
+            <h3 class="product-title">Aqui puede ir algo</h3>
 
-        <div class="container">
-          <div class="btn btn-dark-moon">Aprende Más</div>
+            <p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
+            <h3 class="product-title">Aqui puede ir algo</h3>
+            <p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
+
+            <div class="action">
+
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
+  </div>
 </section>
 <!-- End About Us Section -->
 @yield('aboutUs')

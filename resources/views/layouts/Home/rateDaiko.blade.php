@@ -1,6 +1,6 @@
 <!-- ======= Rate Daiko ======= -->
 <main id="main">
-<section id="clients" class="clients clients">
+<section id="clients" class="clients clients section-title" data-aos="fade-up">
       <div class="container">
 
         <div class="row">
