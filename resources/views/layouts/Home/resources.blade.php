@@ -21,6 +21,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/button.css" rel="stylesheet">
     <link href="assets/css/animation/style.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -51,7 +52,7 @@
 
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/app.js')}}"></script>
-
+<script src="{{asset('assets/js/btn.js')}}"></script>
 <script src="{{asset('assets/js/jquery-2.1.1.js')}}"></script>
 <script src="{{asset('assets/js/animation/main.js')}}"></script>
 <script src="{{asset('assets/js/animation/jquery-ui.min.js')}}"></script>

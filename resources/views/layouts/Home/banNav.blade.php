@@ -15,7 +15,7 @@
         </h1>
         <p data-aos="fade-up" data-aos-delay="400">Creemos en una nueva economía, la cual se constituye como un sistema de fácil acceso, eficiente, justo y redituable que permita alcanzar una mayor oportunidad de libertad financiera desde un esquema de inversión donde el usuario posee el control de uso sin intermediarios.</p>
         <div data-aos="fade-up" data-aos-delay="800" class="d-flex">
-          <div style="margin-right: 30px;">
+          <div style="margin-right: 20px;">
             <a href="#about" class="btn btn-dark-moon-hero">Registrate</a>
           </div>
           <div>

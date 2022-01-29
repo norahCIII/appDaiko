@@ -5,8 +5,9 @@
  			<h2>Servicios</h2>
  			<p></p>
  		</div>
- 		<div class="styles-module--advantage__screen--OUWUR" id="ecosystem">
- 			<div class="styles-module--advantage__screen__container--2PyNC">
+ 		<div class="styles-module--advantage__screen--OUWUR" id="ecosystem" >
+ 			<div class="styles-module--advantage__screen__container--2PyNC" data-aos="fade-up"
+     data-aos-duration="3000">
  				<div class="styles-module--advantage__screen__inner--ASS9T">
  					<div class="styles-module--advantage__screen_block--ztp99"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 405.92 405.88" style="enable-background:new 0 0 405.92 405.88;" xml:space="preserve">
  							<style type="text/css">
@@ -246,7 +247,8 @@
  						<h4>CDP</h4>
  						<p>Permite realizar depósitos de inversión desde la banca tradicional resolviendo la complejidad de las operaciones financieras<br> en Blockchain, este servicio, brinda tazas de retorno hasta un 20% de interés efectivo anual a través de contratos inteligentes <br><br>a términos fijos en cripto monedas estables, lo que permite a los titulares el control total de sus activos.</p>
  					</div>
- 					<div class="styles-module--advantage__screen_block--ztp99"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 405.92 405.88" style="enable-background:new 0 0 405.92 405.88;" xml:space="preserve">
+ 					<div class="styles-module--advantage__screen_block--ztp99" data-aos="fade-up"
+     data-aos-duration="3000"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 405.92 405.88" style="enable-background:new 0 0 405.92 405.88;" xml:space="preserve">
  							<style type="text/css">
  								.st0 {
  									display: none;
@@ -434,7 +436,8 @@
  						<h4>Play-To-Earn</h4>
  						<p>Two token systems. UFO will be the <br>governance token, and UAP will serve as the <br>2nd token, which people can earn via <br>completing in-game quests, tournaments, and <br>our future PVP battle mode.</p>
  					</div>
- 					<div class="styles-module--advantage__screen_block--ztp99"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 405.92 405.88" style="enable-background:new 0 0 405.92 405.88;" xml:space="preserve">
+ 					<div class="styles-module--advantage__screen_block--ztp99" data-aos="fade-up"
+     data-aos-duration="3000"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 405.92 405.88" style="enable-background:new 0 0 405.92 405.88;" xml:space="preserve">
  							<style type="text/css">
  								.st0 {
  									display: none;

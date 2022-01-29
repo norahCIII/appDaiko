@@ -18,7 +18,7 @@
                         <div style="width: 100%; border-radius: 100px; background: transparent;">
                           <div style="width: 49.9995%; background-color: rgb(255, 255, 255); height: 2px; cursor: pointer; border-radius: 100px; display: flex; justify-content: flex-end;">
                             <div style="width: 18px; height: 18px; position: relative; transform: translate(50%, -50%);">
-                              <div style="width: 18px; height: 18px; min-width: 18px; background-color: rgb(189, 162, 111); border-radius: 50%; border: 2px solid rgb(189, 162, 111); cursor: pointer;"></div>
+                              <div id="slider" style="width: 18px; height: 18px; min-width: 18px; background-color: rgb(189, 162, 111); border-radius: 50%; border: 2px solid rgb(189, 162, 111); cursor: pointer;"></div>
                             </div>
                           </div>
                         </div>
@@ -81,7 +81,7 @@
                   <hr class="style">
                   <div class="form-group">
                     <div class="col-sm-12">
-                      <a onclick="algoritmo();" text-decoration="none" referrerpolicy="strict-origin" target="_blank" class="css-1mfu7oz"><button type="button" class="css-18t364o">Invertir</button></a>
+                      <a  onclick="algoritmo();" text-decoration="none" referrerpolicy="strict-origin" target="_blank" class="css-1mfu7oz"><button type="button" class="css-18t364o">Invertir</button></a>
                     </div>
                   </div>
                   <div class="form-group">
@@ -144,6 +144,10 @@
     })
 
   }
+
+  $( function() {
+    $( "#slider" ).slider();
+  } );
 
   // immediate function to preserve global namespace
 </script>
