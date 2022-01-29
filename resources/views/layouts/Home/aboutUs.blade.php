@@ -37,10 +37,9 @@
                 <b>Un nuevo mundo.</b>
               </span>
             </h1>
-            <p class="product-descriptionOne" data-aos="zoom-in-up">Daiko Bank es una plataforma del Ecosistema NOVA LAB, la cual busca ofrecer tazas de retorno a la inversión superiores a los sistemas financieros tradicionales, creemos en una nueva economía, la cual se constituye como un sistema de fácil acceso, eficiente.</p>
+            <p class="product-descriptionOne" data-aos="zoom-in-up">Daiko Bank es una plataforma del Ecosistema NOVA LAB, la cual busca resolver la complejidad de las operaciones financieras en blockchain haciéndola accesible a todas las personas para que cualquier pueda hacerlo en simples pasos, permitiendo a los usuarios obtener tazas de retorno fijo entre el 7% a 20% de interés efectivo anual.</p>
             <h3 class="product-title"></h3>
-            <p class="product-descriptionTwo" data-aos="zoom-in-up">justo y redituable que permita alcanzar una mayor oportunidad de libertad financiera desde un esquema de inversión descentralizado donde el usuario posee el control de sus activos sin intermediarios.</p>
-
+            <p class="product-descriptionTwo" data-aos="zoom-in-up">Este esquema permite a los usuarios realizar contratos inteligentes sobre los tiempos de inversión entre siete días hasta un año derogables posterior a los siete días de depósito sin tarifas de manejo adicionales, lo que permite a los usuarios el control total de sus activos.</p>
             <div class="d-flex skill">
               <div data-aos="flip-left">
                 <i class="fa fa-expeditedssl fa-4x" aria-hidden="true"></i>
@@ -58,5 +57,6 @@
     </div>
   </div>
 </section>
-<!-- End About Us Section -->
+<!-- End About Us Section
+   x-->
 @yield('aboutUs')

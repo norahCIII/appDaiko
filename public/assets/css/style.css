@@ -136,7 +136,7 @@ px
     --btn-color-lineal: #bda26f;
     --btn-color-bg: #111;
     --dorado-bg-one: #3f2200;
-    --dorado-bg-two: #ffc041;
+    --dorado-bg-two: rgb(255, 192, 65);
     --dorado-bg-treh: #b07520;
     --dorado-bg-four: #ffc952;
     --dorado-bg-five: #d1a930;
@@ -144,7 +144,7 @@ px
     --dorado-bg-seven: #cead35;
     --dorado-bg-eight: #914800;
 
-    --dorado-bg-ten: #ffa200;
+    --dorado-bg-ten: rgb(255, 162, 0);
     
     --background-dune: rgb(8, 8, 8);
     --background-sect: rgb(11, 11, 14);
@@ -240,10 +240,12 @@ margin-left: 100px;}
     padding: 12px;
 --------------------------------------------------------------*/
 #header {
+    
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 12px 0;
     background-image: linear-gradient(to top, rgba(11, 11, 11, 0.7), rgba(11, 11, 11, 1));
 }
+.navFlex{justify-content: space-between;}
 
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -253,7 +255,7 @@ margin-left: 100px;}
 
 
 #header .logo h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -369,6 +371,102 @@ margin-left: 100px;}
 #back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #fff; background: #121316; position: fixed; bottom: 25px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
 #back-to-top .top:hover { background: #f9b707; color: #fff; -webkit-box-shadow: 0px 0px 30px 0px rgba(34, 34, 34, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(34, 34, 34, 0.1); box-shadow: 0px 0px 30px 0px rgba(34, 34, 34, 0.1); }
 
+dl, ol, ul {
+  
+    margin-bottom: 0rem !important;
+}
+
+.hoverable{
+    display:inline-block;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    position:relative;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    tranform: translateZ(0);
+    transition-duration: .3s;
+    transition-property:transform;
+  }
+  
+  .hoverable:before{
+    position:absolute;
+    pointer-events: none;
+    z-index:-1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height:10px;
+    width:90%;
+    opacity:0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(255, 192, 65, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(255, 192, 65, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    /* W3C */
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+  }
+  
+  .hoverable:hover, .hoverable:active, .hoverable:focus{
+    transform: translateY(-5px);
+  }
+  .hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+  
+  
+  
+  @keyframes bounce-animation {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+  
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+  
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+  
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  .bounce {
+    animation-name: bounce-animation;
+    animation-duration: 2s;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .navbar{
+      text-align: center !important;
+      float: none;
+      display: inline-block;
+    }
+  }
+  
+  
+  /*everything below here is just setting up the page, so dont worry about it */
+  
+  
+
+ 
+  /*End*/
 .login {
     padding: 0px 0 0px 180px !important;
 }
@@ -389,7 +487,7 @@ margin-left: 100px;}
 }
 
 .navbar ul {
-    margin: 0;
+    margin-left: -45px;
     padding: 0;
     display: flex;
     list-style: none;
@@ -413,7 +511,7 @@ margin-left: 100px;}
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+   /** padding: 10px 0 10px 30px;*/
     font-size: 12px;
     font-weight: 500;
     white-space: nowrap;
@@ -631,6 +729,12 @@ margin-left: 100px;}
     width: 100%;
     height: 70vh;
     
+    
+}
+.heroOne {  
+    background: url(../img/planet.png) no-repeat;
+    background-position: 0px 30px;
+    
 }
 #hero h1 b{
     color: yellow;
@@ -689,12 +793,11 @@ margin-left: 100px;}
 }
 
 #hero p{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    color: #ffffff;
     font-size: 17px;
     font-family: var(--secondary-font);
-    color: var(--grey-daiko-color);
+    color: #b3b3b3;
   
 }
 

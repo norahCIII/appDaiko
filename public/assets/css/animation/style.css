@@ -76,7 +76,7 @@ Primary style
   display: inline-block;
   position: relative;
   text-align: left;
-  font-size: 50px;
+  font-size: 45px;
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -561,7 +561,7 @@ xloading-bar
 -------------------------------- */
 .cd-headline.loading-bar span {
   display: inline-block;
-  padding: .2em 0;
+  /*padding: .2em 0;*/
 }
 .cd-headline.loading-bar .cd-words-wrapper {
   overflow: hidden;

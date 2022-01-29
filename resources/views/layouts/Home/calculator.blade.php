@@ -12,7 +12,7 @@
               <div class="price-form">
                 <div class="price-slider">
                   <div class="css-1c0t6ml">
-                    <div class="css-1bt0omd"><input name="capital_inicial" class="css-1wugum4" value="500,000"><span class="css-x7dwdu">USDC</span></div>
+                    <div class="css-1bt0omd"><input name="capital_inicial" class="css-1wugum4" value="000,000"><span class="css-x7dwdu">USDC</span></div>
                     <div class="css-gn9u53">
                       <div class="react-slider-holder" style="width: 100%; cursor: pointer; transform: translateY(-1px); padding-top: 2px; padding-bottom: 2px; touch-action: none;">
                         <div style="width: 100%; border-radius: 100px; background: transparent;">
@@ -23,10 +23,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="css-zl9v69">
-                        <div class="css-roynbj">10</div>
-                        <div class="css-roynbj">1,000,000</div>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -34,9 +31,9 @@
                   <div class="row d-flex screen">
                     <div class="col-lg-2">
                       <select id="percentage" onChange="valorCambiado()">
-                        <option class="valor" value="8">1 Mes</option>
-                        <option class="valor" value="12">3 Meses</option>
-                        <option class="valor" value="15">6 Meses</option>
+                        <option class="valor" value="6">1 Mes</option>
+                        <option class="valor" value="9">3 Meses</option>
+                        <option class="valor" value="12">6 Meses</option>
                         <option class="valor" value="18">1 Año</option>
                       </select>
                     </div>
@@ -81,7 +78,7 @@
                   <hr class="style">
                   <div class="form-group">
                     <div class="col-sm-12">
-                      <a  onclick="algoritmo();" text-decoration="none" referrerpolicy="strict-origin" target="_blank" class="css-1mfu7oz"><button type="button" class="css-18t364o">Invertir</button></a>
+                      <a onclick="algoritmo();" text-decoration="none" referrerpolicy="strict-origin" target="_blank" class="css-1mfu7oz"><button type="button" class="css-18t364o">Invertir</button></a>
                     </div>
                   </div>
                   <div class="form-group">
@@ -130,7 +127,7 @@
     var time = 1;
 
     inputs.forEach(input => {
-
+    
       let capital_inicial, interes_simple, numero_de_annos, porcentaje_de_interes;
       capital_inicial = parseFloat(document.formulario1.capital_inicial.value);
       numero_de_annos = time;
@@ -145,9 +142,9 @@
 
   }
 
-  $( function() {
-    $( "#slider" ).slider();
-  } );
+  $(function() {
+    $("#slider").slider();
+  });
 
   // immediate function to preserve global namespace
 </script>

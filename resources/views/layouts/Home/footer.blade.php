@@ -19,7 +19,7 @@
       
     <div class="container foot d-flex footFlex">
       <div class="row d-flex align-items-center footAling">
-        <div class="col-lg-6 text-lg-left text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-lg-6 text-lg-left text-center" data-aos="fade-up" data-aos-delay="200">
           <a href="{{ url('../') }}"><img src="assets/img/support/logoNova.png" alt="" class="img-fluid imgFoot"></a>
         </div>
       </div>
