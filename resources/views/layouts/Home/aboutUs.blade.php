@@ -31,7 +31,7 @@
             </ul>
           </div>
           <div class="details col-md-6">
-            <h1 class="cd-headline loading-bar">
+            <h1 class="cd-headline loading-bar" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <span class="cd-words-wrapper">
                 <b class="is-visible">Una nueva economía.</b>
                 <b>Un nuevo mundo.</b>

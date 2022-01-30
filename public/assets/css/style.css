@@ -487,7 +487,7 @@ dl, ol, ul {
 }
 
 .navbar ul {
-    margin-left: -45px;
+   
     padding: 0;
     display: flex;
     list-style: none;
@@ -759,7 +759,7 @@ dl, ol, ul {
 
 .hero{
  
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #hero span {
     color: none;
@@ -2636,7 +2636,23 @@ h4 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.social-links a:hover {
+    background: conic-gradient(from 180deg at 50% 50%,
+            #cea851 -41.21deg,
+            #fff1c3 0.05deg,
+            #9b7c3a 74.45deg,
+            #fff0ca 115.85deg,
+            #d3ad5f 143.94deg,
+            #ffecc4 176.48deg,
+            #997736 232.74deg,
+            #fff2c0 284.83deg,
+            #cea851 318.79deg,
+            #fff1c3 360.05deg),
+        #d5bc83;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .contact .info {
     color: #444444;
 }

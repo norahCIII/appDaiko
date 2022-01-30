@@ -1,11 +1,7 @@
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
 /*
  * Social Buttons for Bootstrap
- *
- * Copyright 2013 Panayiotis Lipiridis
- * Licensed under the MIT License
- *
- * https://github.com/lipis/bootstrap-social
+
  */
 
 .btn-social {
@@ -24,7 +20,7 @@
   bottom: 0;
   width: 50px;
   line-height: 34px;
-  font-size: 1.6em;
+
   text-align: center;
   border-right: 1px solid rgba(0, 0, 0, 0.2)
 }
