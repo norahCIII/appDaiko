@@ -615,7 +615,7 @@ dl, ol, ul {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-    color: #222222;
+    color: #ffffff;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -664,7 +664,7 @@ dl, ol, ul {
     left: 15px;
     padding: 10px 0;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     overflow-y: auto;
     transition: 0.3s;
 }
