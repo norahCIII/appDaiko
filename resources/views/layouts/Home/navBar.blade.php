@@ -6,15 +6,30 @@
      </div>
      <nav id="navbar" class="navbar">
        <ul>
-         <li><a class="nav-link scrollto hoverable" href="{{ url('../gana') }}">HOME</a></li>
-         <li><a class="nav-link scrollto hoverable" href="#about">PORTAFOLIO</a></li>
-         <li><a class="nav-link scrollto hoverable" href="#services">NOSOTROS</a></li>
-         <li><a class="nav-link scrollto hoverable " href="#portfolio">CONTACTO</a></li>
-        
-         <li><a id="len4" class="nav-link scrollto hoverable" href="{{ url('../about') }}">APRENDE</a></li>
-         </a></li>
-         <li><a class="getstarted scrollto hoverable" href="#about">Get Started</a></li>
+         <li>
+           <a class="nav-link scrollto hoverable" href="{{ url('../gana') }}">HOME</a>
+         </li>
+         <li>
+           <a class="nav-link scrollto hoverable" href="#about">PORTAFOLIO</a>
+         </li>
+         <li>
+           <a class="nav-link scrollto hoverable" href="#services">NOSOTROS</a>
+         </li>
+         <li>
+           <a class="nav-link scrollto hoverable " href="#portfolio">CONTACTO</a>
+         </li>
+         <li>
+           <a id="len4" class="nav-link scrollto hoverable" href="{{ url('../about') }}">APRENDE</a>
+         </li>
+         </a>
+         </li>
+        <div class=" goBtn">
+           <div class="btn btn-dark-moon-hero">
+             COMIENZA
+           </div>
+           </div>
        </ul>
+
        <i class="bi bi-list mobile-nav-toggle"></i>
      </nav>
      <!-- .navbar -->

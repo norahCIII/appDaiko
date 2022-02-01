@@ -30,27 +30,26 @@
               <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="" /></a></li>
             </ul>
           </div>
-          <div class="details col-md-6">
+          <div class="details textAbout col-md-6">
             <h1 class="cd-headline loading-bar" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <span class="cd-words-wrapper">
                 <b class="is-visible">Una nueva economía.</b>
                 <b>Un nuevo mundo.</b>
               </span>
             </h1>
-            <p class="product-descriptionOne" data-aos="zoom-in-up">Daiko Bank es una plataforma del Ecosistema NOVA LAB, la cual busca resolver la complejidad de las operaciones financieras en blockchain haciéndola accesible a todas las personas para que cualquier pueda hacerlo en simples pasos, permitiendo a los usuarios obtener tazas de retorno fijo entre el 7% a 20% de interés efectivo anual.</p>
-            <h3 class="product-title"></h3>
-            <p class="product-descriptionTwo" data-aos="zoom-in-up">Este esquema permite a los usuarios realizar contratos inteligentes sobre los tiempos de inversión entre siete días hasta un año derogables posterior a los siete días de depósito sin tarifas de manejo adicionales, lo que permite a los usuarios el control total de sus activos.</p>
-            <div class="d-flex skill">
-              <div data-aos="flip-left">
-                <i class="fa fa-expeditedssl fa-4x" aria-hidden="true"></i>
+            <ul class=" list-groupproduct-descriptionOne listGroup" data-aos="zoom-in-up">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item"><i class="ri-timer-flash-line mx-2"></i>Estadistica en real time</li>
+                    <li class="list-group-item"><i class="ri-rocket-line mx-2"></i>Fácil Acceso</li>
+                    <li class="list-group-item"><i class="ri-lock-2-line mx-2"></i>Seguridad</li>
+                    <li class="list-group-item"><i class="ri-settings-4-line mx-2"></i> Soporte</li>
+                    <li class="list-group-item"><i class="ri-goblet-line mx-2"></i>Transparencia</li>
+                  </ul>
+                </div>
               </div>
-              <div data-aos="flip-left">
-                <i class="fa fa-angellist fa-4x" aria-hidden="true"></i>
-              </div>
-              <div data-aos="flip-left">
-                <i class="fa fa-angellist fa-4x" aria-hidden="true"></i>
-              </div>
-            </div>
+            </ul>
           </div>
         </div>
       </div>

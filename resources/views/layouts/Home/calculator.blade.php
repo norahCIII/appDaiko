@@ -6,6 +6,22 @@
     </div>
     <div class="price-box">
       <div class="row">
+      <div class="details col-sm-6">
+          <div class="calBan">
+            <h1 class="display-4">Hello, world!     
+                <span class="cd-words-wrapper cd-headline slide">
+                  <b class="is-visible">Holi</b>
+                  <b>Holitas</b>
+                </span>            
+            </h1><!-- cd-intro -->
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
         <div class="col-sm-6">
           <form name="formulario1" class="form-horizontal form-pricing" role="form">
             <div class="col-sm-12">
@@ -13,18 +29,7 @@
                 <div class="price-slider">
                   <div class="css-1c0t6ml">
                     <div class="css-1bt0omd"><input name="capital_inicial" class="css-1wugum4" value="000,000"><span class="css-x7dwdu">USDC</span></div>
-                    <div class="css-gn9u53">
-                      <div class="react-slider-holder" style="width: 100%; cursor: pointer; transform: translateY(-1px); padding-top: 2px; padding-bottom: 2px; touch-action: none;">
-                        <div style="width: 100%; border-radius: 100px; background: transparent;">
-                          <div style="width: 49.9995%; background-color: rgb(255, 255, 255); height: 2px; cursor: pointer; border-radius: 100px; display: flex; justify-content: flex-end;">
-                            <div style="width: 18px; height: 18px; position: relative; transform: translate(50%, -50%);">
-                              <div id="slider" style="width: 18px; height: 18px; min-width: 18px; background-color: rgb(189, 162, 111); border-radius: 50%; border: 2px solid rgb(189, 162, 111); cursor: pointer;"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                     
-                    </div>
+                    
                   </div>
                 </div>
                 <div class="form-group ">
@@ -87,11 +92,16 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
           </form>
         </div>
+        
+        <!-- end card -->
       </div>
     </div>
   </div>
+
 </section>
 <script>
   /*
@@ -127,7 +137,7 @@
     var time = 1;
 
     inputs.forEach(input => {
-    
+
       let capital_inicial, interes_simple, numero_de_annos, porcentaje_de_interes;
       capital_inicial = parseFloat(document.formulario1.capital_inicial.value);
       numero_de_annos = time;

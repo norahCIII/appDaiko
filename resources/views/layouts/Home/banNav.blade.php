@@ -13,13 +13,17 @@
             </span>
           </h1>
         </h1>
-        <p data-aos="fade-up" data-aos-delay="400">Creemos en una nueva economía, la cual se constituye como un sistema de fácil acceso, eficiente, justo y redituable que permita alcanzar una mayor oportunidad de libertad financiera desde un esquema de inversión donde el usuario posee el control de uso sin intermediarios.</p>
+        <p data-aos="fade-up" data-aos-delay="400">Somos una plataforma de fácil acceso, justa, segura y eficiente que permite una mayor oportunidad de libertad financiera y ahorro para tu futuro, en un sistema donde el usuario tiene el control de sus activos sin intermediarios.</p>
         <div data-aos="fade-up" data-aos-delay="800" class="d-flex">
           <div style="margin-right: 20px;">
             <a href="#about" class="btn btn-dark-moon-hero">Registrate</a>
           </div>
           <div>
-            <a href="#about" class="btn btn-dark-moon-hero">Nuestras tarifas</a>
+            <a class="btn btn-block btn-social btn-dropbox">
+              <i class="fa fa-apple"></i>
+              <i class="ri-google-play-fill"></i>
+              Descarga la App
+            </a>
           </div>
         </div>
       </div>
@@ -29,7 +33,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="shape">
     <a class="navbar-brand" href="javascript:void(0)">
       <img src="assets/img/back.png" class="img-fluid" alt="">

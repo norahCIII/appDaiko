@@ -1,9 +1,9 @@
 <!-- ======= Rate Daiko ======= -->
 <main id="main">
-<section id="clients" class="clients clients section-title" data-aos="fade-up">
+<section id="clients" class="clients clients section-title" >
       <div class="container">
 
-        <div class="row">
+        <div class="row " data-aos="fade-up">
 
           <div class="col-lg-3 col-md-12 col-12 countCont">
             <h4 class="countRate"><span data-purecounter-start="0" data-purecounter-end="33" data-purecounter-duration="1" class="purecounter"></span>.B</h4>

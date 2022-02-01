@@ -16,10 +16,8 @@
 .btn-social :first-child {
   position: absolute;
   left: 0;
-  top: 0;
-  bottom: 0;
   width: 50px;
-  line-height: 34px;
+  line-height: 24px;
 
   text-align: center;
   border-right: 1px solid rgba(0, 0, 0, 0.2)
@@ -158,26 +156,6 @@
   border-color: rgba(0, 0, 0, 0.2)
 }
 
-.btn-dropbox {
-  color: #fff;
-  background-color: #1087dd;
-  border-color: rgba(0, 0, 0, 0.2)
-}
-
-.btn-dropbox:hover, .btn-dropbox:focus, .btn-dropbox:active, .btn-dropbox.active, .open .dropdown-toggle.btn-dropbox {
-  color: #fff;
-  background-color: #0d70b7;
-  border-color: rgba(0, 0, 0, 0.2)
-}
-
-.btn-dropbox:active, .btn-dropbox.active, .open .dropdown-toggle.btn-dropbox {
-  background-image: none
-}
-
-.btn-dropbox.disabled, .btn-dropbox[disabled], fieldset[disabled] .btn-dropbox, .btn-dropbox.disabled:hover, .btn-dropbox[disabled]:hover, fieldset[disabled] .btn-dropbox:hover, .btn-dropbox.disabled:focus, .btn-dropbox[disabled]:focus, fieldset[disabled] .btn-dropbox:focus, .btn-dropbox.disabled:active, .btn-dropbox[disabled]:active, fieldset[disabled] .btn-dropbox:active, .btn-dropbox.disabled.active, .btn-dropbox[disabled].active, fieldset[disabled] .btn-dropbox.active {
-  background-color: #1087dd;
-  border-color: rgba(0, 0, 0, 0.2)
-}
 
 .btn-facebook {
   color: #fff;
